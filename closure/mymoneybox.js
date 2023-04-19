@@ -16,8 +16,8 @@ function moneyBox() {
     }
     return countCoins;
 }
-const mymoneybox = moneyBox();
-mymoneybox(5); // 5
+const mymoneybox = moneyBox(); // se crea instancia de moneyBox
+mymoneybox(5); // 5 // se llama a función dentro de moneyBox con acceso a constande de moneyBox
 mymoneybox(5); // 10
 mymoneybox(15); // 25
  // SI RECUERDA LAS EJECUCIONES ANTERIORES
